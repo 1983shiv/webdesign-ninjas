@@ -1,4 +1,4 @@
 markdown:redcarpet
-baseurl: /ninjas
+baseurl: /webdesign-ninjas
 exclude: ['README.md']
 permalink: pretty
