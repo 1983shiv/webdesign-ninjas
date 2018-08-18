@@ -1,1 +1,4 @@
-theme: jekyll-theme-architect
+markdown:redcarpet
+baseurl: /ninjas
+exclude: ['README.md']
+permalink: pretty

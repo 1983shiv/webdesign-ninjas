@@ -1,10 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8"></meta>
-<title>New Webdesign Ninjas site</title>
-</head>
-<body>
-<h2>Welcome to Ninjas website</h2>
-</body>
-</html>
+---
+layout: default
+titleAfter: Bring your business to next level.
+meta: A Professional team of Web designers & Coders
+priority: 1.0
+---
+
+<section id="main-slider">
+    {% include slides.html %}
+</section><!--/#main-slider-->
+    
+<section id="cta" class="wow fadeIn">
+    <div class="container">
+        <div class="row">
+            {% include intro-about.html %}
+        </div>
+    </div>
+</section><!--/#cta-->
+
+<section id="portfolio">
+    {% include portfolio.html %}
+</section><!--/#portfolio-->
+
+<section id="cta2">
+    <div class="container">
+        <div class="text-center">
+            {% include cta2.html %}
+        </div>
+    </div>
+</section>
+
+<section id="services" >
+    {% include services.html %}
+</section><!--/#services-->
+
+
+<section id="testimonial">
+    {% include feedback.html %}
+</section><!--/#testimonial-->
+
+
+<section id="get-in-touch">
+    <div class="container">
+        <div class="section-header">
+            {% include contact.html %}
+        </div>
+    </div>
+</section><!--/#get-in-touch-->
