@@ -26,6 +26,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
  *	v1.3.3
  */
 
+.aboutus p {
+    font-size: 18px !important;
+}
+
 /* clearfix */
 .owl-carousel .owl-wrapper:after {
 	content: ".";
