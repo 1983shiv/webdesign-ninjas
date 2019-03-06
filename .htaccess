@@ -15,3 +15,9 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 1 month"
 </IfModule>
 # End caching block
+
+# adding redirect from http to https
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^webdesign-ninjas.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.webdesign-ninjas.com/$1 [R,L]
